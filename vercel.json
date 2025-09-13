@@ -1,0 +1,11 @@
+{
+  "build": {
+    "env": {
+      "FLUTTER_STORAGE_BASE_URL": "https://storage.googleapis.com",
+      "PUB_HOSTED_URL": "https://pub.dev"
+    }
+  },
+  "installCommand": "git clone https://github.com/flutter/flutter.git --depth 1 && ./flutter/bin/flutter precache --web",
+  "buildCommand": "./flutter/bin/flutter build web --release",
+  "outputDirectory": "build/web"
+}
